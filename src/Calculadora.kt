@@ -1,5 +1,5 @@
 fun main( ){
-    var resultado:Int
+    var resultado:Int  = 0
     var num1:Int
     var num2:Int
     var op1:Int
@@ -13,8 +13,13 @@ fun main( ){
     op1 = Integer.valueOf(readLine())
     if(op1 == 2) {
         resultado = num1 - num2
+    }else{
+            if(op1==1){
+            resultado = num1+num2
+        }
+    }
         println(resultado)
         println("Olá Mundo")
     }
-    }
+    
 
