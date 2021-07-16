@@ -16,7 +16,11 @@ fun main( ){
     }else{
             if(op1==1){
             resultado = num1+num2
-        }
+          }else{
+              if(op1==3){
+              resultado = num1*num2
+              }
+            }
     }
         println(resultado)
         println("Olá Mundo")
